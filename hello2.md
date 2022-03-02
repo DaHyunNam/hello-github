@@ -22,6 +22,25 @@
 
 github에 업로드하는 걸 GIT에서는 'push'라고 합니다.
 
+## Source Tree 설치
+우리는 조금 더 편하게 git을 사용하기 위해서 source tree를 설치하려고 합니다. 
+
+## Source Tree를 통해서 저장소 클론
+이제 소스 트리를 실행해 봅시다. 소스트리의 'Clone' 또는 '복제/생성' 메뉴를 통해 github에서 생성한 저장소를 클론해 올 수 있습니다. 앞단계에서 메모장에 붙여 넣었던 저장소 주소를 넣어주면 됩니다. 보통 "내문서" 아래에 저장소 이름과 같은 새로운 폴더가 만들어 집니다. 
+
+## 작업 후 스테이지에 파일 추가
+만들어진 폴더를 열고 에디터 등을 이용해 hello.html을 만들어 봅시다.
+저장 위치는 Documents/hello-world/
+hello.html
+<html>
+<body>
+<h1>Hello  JS</h1>
+<script>
+    console.log("Hello world!");
+</script>
+</body>
+</html>
+
 ## git 명령어 요약
 - clone : 원격 저장소 복사
 - add : 스테이지 영역에 작업 파일 추가
